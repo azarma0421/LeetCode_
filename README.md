@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/azarma0421/LeetCode_/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0023-merge-k-sorted-lists](https://github.com/azarma0421/LeetCode_/tree/master/0023-merge-k-sorted-lists) |
 ## Divide and Conquer
 |  |
@@ -37,4 +38,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/azarma0421/LeetCode_/tree/master/0023-merge-k-sorted-lists) |
+## Two Pointers
+|  |
+| ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/azarma0421/LeetCode_/tree/master/0019-remove-nth-node-from-end-of-list) |
 <!---LeetCode Topics End-->
