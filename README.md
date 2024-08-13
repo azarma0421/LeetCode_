@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/azarma0421/LeetCode_/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
 ## Dynamic Programming
 |  |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/azarma0421/LeetCode_/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/azarma0421/LeetCode_/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 ## Simulation
 |  |
 | ------- |
@@ -73,4 +75,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/azarma0421/LeetCode_/tree/master/0048-rotate-image) |
+## String
+|  |
+| ------- |
+| [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
