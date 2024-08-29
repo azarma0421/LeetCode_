@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/azarma0421/LeetCode_/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0125-valid-palindrome](https://github.com/azarma0421/LeetCode_/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/azarma0421/LeetCode_/tree/master/0143-reorder-list) |
 ## Stack
 |  |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/azarma0421/LeetCode_/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/azarma0421/LeetCode_/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/azarma0421/LeetCode_/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/azarma0421/LeetCode_/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
 ## Backtracking
