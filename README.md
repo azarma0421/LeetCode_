@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/azarma0421/LeetCode_/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
 ## Dynamic Programming
 |  |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/azarma0421/LeetCode_/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/azarma0421/LeetCode_/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/azarma0421/LeetCode_/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/azarma0421/LeetCode_/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
@@ -114,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -194,4 +198,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/azarma0421/LeetCode_/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
