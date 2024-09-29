@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
 ## Dynamic Programming
 |  |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/azarma0421/LeetCode_/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/azarma0421/LeetCode_/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
 ## Linked List
 |  |
@@ -44,10 +46,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/azarma0421/LeetCode_/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/azarma0421/LeetCode_/tree/master/0023-merge-k-sorted-lists) |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 ## Merge Sort
 |  |
 | ------- |
@@ -79,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azarma0421/LeetCode_/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
 ## Matrix
 |  |
@@ -199,4 +204,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/azarma0421/LeetCode_/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
