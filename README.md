@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/azarma0421/LeetCode_/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 | [0238-product-of-array-except-self](https://github.com/azarma0421/LeetCode_/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
 | [0792-binary-search](https://github.com/azarma0421/LeetCode_/tree/master/0792-binary-search) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/azarma0421/LeetCode_/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/azarma0421/LeetCode_/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/azarma0421/LeetCode_/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azarma0421/LeetCode_/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
 ## Matrix
@@ -123,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/azarma0421/LeetCode_/tree/master/0048-rotate-image) |
+| [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/azarma0421/LeetCode_/tree/master/0371-sum-of-two-integers) |
 ## String
 |  |
@@ -227,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/azarma0421/LeetCode_/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/azarma0421/LeetCode_/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azarma0421/LeetCode_/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
 | [0792-binary-search](https://github.com/azarma0421/LeetCode_/tree/master/0792-binary-search) |
 ## Trie
 |  |
@@ -258,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/azarma0421/LeetCode_/tree/master/0191-number-of-1-bits) |
+| [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/azarma0421/LeetCode_/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/azarma0421/LeetCode_/tree/master/0371-sum-of-two-integers) |
 <!---LeetCode Topics End-->
