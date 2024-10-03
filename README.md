@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/azarma0421/LeetCode_/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/azarma0421/LeetCode_/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/azarma0421/LeetCode_/tree/master/0152-maximum-product-subarray) |
+| [0338-counting-bits](https://github.com/azarma0421/LeetCode_/tree/master/0338-counting-bits) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/azarma0421/LeetCode_/tree/master/0647-palindromic-substrings) |
 ## Greedy
@@ -257,5 +258,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/azarma0421/LeetCode_/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/azarma0421/LeetCode_/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/azarma0421/LeetCode_/tree/master/0371-sum-of-two-integers) |
 <!---LeetCode Topics End-->
