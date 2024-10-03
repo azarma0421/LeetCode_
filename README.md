@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/azarma0421/LeetCode_/tree/master/0048-rotate-image) |
+| [0371-sum-of-two-integers](https://github.com/azarma0421/LeetCode_/tree/master/0371-sum-of-two-integers) |
 ## String
 |  |
 | ------- |
@@ -251,4 +252,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/azarma0421/LeetCode_/tree/master/0238-product-of-array-except-self) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0371-sum-of-two-integers](https://github.com/azarma0421/LeetCode_/tree/master/0371-sum-of-two-integers) |
 <!---LeetCode Topics End-->
