@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/azarma0421/LeetCode_/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/azarma0421/LeetCode_/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/azarma0421/LeetCode_/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/azarma0421/LeetCode_/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/azarma0421/LeetCode_/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/azarma0421/LeetCode_/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/azarma0421/LeetCode_/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/azarma0421/LeetCode_/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/azarma0421/LeetCode_/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/azarma0421/LeetCode_/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/azarma0421/LeetCode_/tree/master/0322-coin-change) |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/azarma0421/LeetCode_/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/azarma0421/LeetCode_/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0139-word-break](https://github.com/azarma0421/LeetCode_/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/azarma0421/LeetCode_/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
@@ -146,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/azarma0421/LeetCode_/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/azarma0421/LeetCode_/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/azarma0421/LeetCode_/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/azarma0421/LeetCode_/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
@@ -247,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/azarma0421/LeetCode_/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/azarma0421/LeetCode_/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/azarma0421/LeetCode_/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
@@ -282,4 +287,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/azarma0421/LeetCode_/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/azarma0421/LeetCode_/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
