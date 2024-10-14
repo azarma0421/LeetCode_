@@ -6,10 +6,8 @@ class Solution {
         ans[0] = 1;
 
         for (int i = 1; i <= s.length(); i++) {
-            int first = Integer.valueOf(s.substring(i - 1, i));
-            int second = 0;
-            if (i > 1)
-                second = Integer.valueOf(s.substring(i - 2, i));
+            int first = s.charAt(i - 1) - '0';
+            int second = i > 1 ? (s.charAt(i - 2) - '0') * 10 + first : 0;
             if (first == 0) {
                 if (second == 0)
                     return 0;
