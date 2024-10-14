@@ -4,27 +4,19 @@ class Solution {
             return 0;
         int[] ans = new int[s.length() + 1];
         ans[0] = 1;
-        int preNum = 0;
 
         for (int i = 1; i <= s.length(); i++) {
-            char c = s.charAt(i - 1);
-
-            if ('0' == c) {
-                if (preNum == 0)
+            int first = Integer.valueOf(s.substring(i - 1, i));
+            int second = 0;
+            if (i > 1)
+                second = Integer.valueOf(s.substring(i - 2, i));
+            if (first == 0) {
+                if (second == 0)
                     return 0;
-            } else {
+            } else
                 ans[i] = ans[i - 1];
-            }
-
-            if (('0' <= c && c <= '6' && preNum == 2) || preNum == 1)
+            if (second >= 10 && second <= 26)
                 ans[i] += ans[i - 2];
-
-            if ('1' == c)
-                preNum = 1;
-            else if ('2' == c)
-                preNum = 2;
-            else
-                preNum = 0;
         }
         return ans[s.length()];
     }
