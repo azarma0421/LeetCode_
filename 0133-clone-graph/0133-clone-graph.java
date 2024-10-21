@@ -20,23 +20,23 @@ class Node {
 
 class Solution {
     public Node cloneGraph(Node node) {
+        if (node == null)
+            return null;
         Node[] visited = new Node[101];
         Arrays.fill(visited, null);
 
-        if (node == null)
-            return null;
-        Node copyNode = new Node(node.val);
-        dfs(node, copyNode, visited);
-        return copyNode;
+        Node copy = new Node(node.val);
+        dfs(visited, node, copy);
+        return copy;
     }
 
-    private void dfs(Node node, Node copy, Node[] visited) {
+    public void dfs(Node[] visited, Node node, Node copy) {
         visited[copy.val] = copy;
         for (Node n : node.neighbors) {
             if (visited[n.val] == null) {
                 Node newNode = new Node(n.val);
                 copy.neighbors.add(newNode);
-                dfs(n, newNode, visited);
+                dfs(visited, n, newNode);
             } else {
                 copy.neighbors.add(visited[n.val]);
             }
