@@ -1,46 +1,36 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int[] visited = new int[numCourses];
-        ArrayList<Integer>[] adj = new ArrayList[numCourses];
+        ArrayList[] graph = new ArrayList[numCourses];
+        int[] degree = new int[numCourses];
+        Queue queue = new LinkedList();
+        int count = 0;
 
-        for(int i=0;i<numCourses;i++){
-            adj[i] = new ArrayList<>();
+        for (int i = 0; i < numCourses; i++)
+            graph[i] = new ArrayList();
+
+        for (int i = 0; i < prerequisites.length; i++) {
+            graph[prerequisites[i][1]].add(prerequisites[i][0]);
+            degree[prerequisites[i][0]]++;
         }
 
-        for(int[] pre : prerequisites){
-            adj[pre[0]].add(pre[1]);
-        }
-
-
-        for(int i=0;i<numCourses;i++){
-            if(!dfs(i,adj,visited)){
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public boolean dfs(int node, ArrayList<Integer>[] adj,int[] visited){
-
-        // already been here
-        if(visited[node] == 1){
-            return false;
-        }
-
-        // already finish
-        if(visited[node] == 2){
-            return true;
-        }
-
-        visited[node] = 1;
-        for(int j : adj[node]){
-            if(!dfs(j,adj,visited)){
-                return false;
+        for (int i = 0; i < degree.length; i++) {
+            if (degree[i] == 0) {
+                count++;
+                queue.add(i);
             }
         }
 
-        visited[node] = 2;
-        return true;
-
+        while (queue.size() != 0) {
+            int currentCourse = (int) queue.poll();
+            for (int i = 0; i < graph[currentCourse].size(); i++) {
+                int dependentCourse = (int) graph[currentCourse].get(i);
+                degree[dependentCourse]--;
+                if (degree[dependentCourse] == 0) {
+                    count++;
+                    queue.add(dependentCourse);
+                }
+            }
+        }
+        return count == numCourses;
     }
 }
