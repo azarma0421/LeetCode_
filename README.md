@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/azarma0421/LeetCode_/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/azarma0421/LeetCode_/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/azarma0421/LeetCode_/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/azarma0421/LeetCode_/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/azarma0421/LeetCode_/tree/master/0213-house-robber-ii) |
 | [0238-product-of-array-except-self](https://github.com/azarma0421/LeetCode_/tree/master/0238-product-of-array-except-self) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/azarma0421/LeetCode_/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/azarma0421/LeetCode_/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
 ## Simulation
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0110-balanced-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/azarma0421/LeetCode_/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/azarma0421/LeetCode_/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/azarma0421/LeetCode_/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/azarma0421/LeetCode_/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0226-invert-binary-tree) |
@@ -224,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/azarma0421/LeetCode_/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/azarma0421/LeetCode_/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -323,4 +327,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/azarma0421/LeetCode_/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
