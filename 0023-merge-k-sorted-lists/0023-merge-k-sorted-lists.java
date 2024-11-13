@@ -22,9 +22,8 @@ class Solution {
                 queue.add(n);
         }
 
-        ListNode head = new ListNode();
-        ListNode current = new ListNode();
-        head = current;
+        ListNode head = new ListNode(0);
+        ListNode current = head;
         while (!queue.isEmpty()) {
             current.next = queue.poll();
             current = current.next;
