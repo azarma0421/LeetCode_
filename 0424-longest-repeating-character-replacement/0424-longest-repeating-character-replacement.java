@@ -1,10 +1,9 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-
-        int[] arr = new int[26];
-        int maxCount = 0;
         int beg = 0;
-        int maxlen = 0;
+        int maxLen = 0;
+        int maxCount = 0;
+        int[] arr = new int[26];
 
         for (int end = 0; end < s.length(); end++) {
             arr[s.charAt(end) - 'A']++;
@@ -13,8 +12,8 @@ class Solution {
                 arr[s.charAt(beg) - 'A']--;
                 beg++;
             }
-            maxlen = Math.max(maxlen, end - beg + 1);
+            maxLen = Math.max(maxLen, end - beg + 1);
         }
-        return maxlen;
+        return maxLen;
     }
 }
