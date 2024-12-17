@@ -1,34 +1,25 @@
 class Solution {
     public String longestPalindrome(String s) {
+        int start = 0;
+        int end = s.length() - 1;
+        int left = 0;
+        int right = 0;
 
-        if (s.length() == 1)
-            return s;
-        String maxStr = "";
-        int maxlen = 0;
-
-        for (int i = 0; i < s.length(); i++) {
-
-            // odd length
-            String odd_s = expandFromCenter(s, i, i);
-            if (maxlen < odd_s.length()) {
-                maxlen = odd_s.length();
-                maxStr = odd_s;
+        while (start <= end) {
+            for (int i = 0; end + i < s.length(); i++) {
+                if (isPalindromic(s, start + i, end + i))
+                    return s.substring(start + i, end + i + 1);
             }
-            // even length
-            String even_s = expandFromCenter(s, i, i + 1);
-            if (maxlen < even_s.length()) {
-                maxlen = even_s.length();
-                maxStr = even_s;
-            }
+            end--;
         }
-        return maxStr;
+        return "";
     }
 
-    private String expandFromCenter(String s, int left, int right) {
-        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
-            left--;
-            right++;
+    private boolean isPalindromic(String s, int left, int right) {
+        while (left <= right) {
+            if (s.charAt(left++) != s.charAt(right--))
+                return false;
         }
-        return s.substring(left + 1, right);
+        return true;
     }
 }
