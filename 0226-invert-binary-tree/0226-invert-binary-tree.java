@@ -15,29 +15,22 @@
  */
 class Solution {
     public TreeNode invertTree(TreeNode root) {
-        if (root == null) {
+        if (root == null)
             return null;
-        }
-        TreeNode newRoot = new TreeNode(root.val);
-        return copyTree(root, newRoot);
-
+        TreeNode newNode = new TreeNode(root.val);
+        copy(root, newNode);
+        return newNode;
     }
 
-    private TreeNode copyTree(TreeNode root, TreeNode newRoot) {
-        if (root == null)
-            return newRoot;
+    private void copy(TreeNode root, TreeNode newNode) {
 
         if (root.left != null) {
-            newRoot.right = new TreeNode(root.left.val);
-            copyTree(root.left, newRoot.right);
+            newNode.right = new TreeNode(root.left.val);
+            copy(root.left, newNode.right);
         }
-
         if (root.right != null) {
-            newRoot.left = new TreeNode(root.right.val);
-            copyTree(root.right, newRoot.left);
+            newNode.left = new TreeNode(root.right.val);
+            copy(root.right, newNode.left);
         }
-
-        return newRoot;
     }
-
 }
