@@ -23,13 +23,11 @@ class Solution {
     }
 
     private int dfs(TreeNode root) {
-        System.out.println("== ");
         if (root == null)
             return 0;
-        int current = root.val;
         int leftsum = Math.max(dfs(root.left), 0);
         int rigthsum = Math.max(dfs(root.right), 0);
-        max = Math.max(max, leftsum + current + rigthsum);
-        return Math.max(current + leftsum, current + rigthsum);
+        max = Math.max(max, leftsum + root.val + rigthsum);
+        return Math.max(root.val + leftsum, root.val + rigthsum);
     }
 }
