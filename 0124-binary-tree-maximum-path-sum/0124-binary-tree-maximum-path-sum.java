@@ -18,19 +18,18 @@ class Solution {
     int max = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
-        rootSum(root);
+        dfs(root);
         return max;
     }
 
-    public int rootSum(TreeNode root) {
+    private int dfs(TreeNode root) {
+        System.out.println("== ");
         if (root == null)
             return 0;
-
-        int LeftSum = Math.max(rootSum(root.left), 0);
-        int RightSum = Math.max(rootSum(root.right), 0);
-
-        max = Math.max(max, root.val + LeftSum + RightSum);
-
-        return Math.max(root.val + LeftSum, root.val + RightSum);
+        int current = root.val;
+        int leftsum = Math.max(dfs(root.left), 0);
+        int rigthsum = Math.max(dfs(root.right), 0);
+        max = Math.max(max, leftsum + current + rigthsum);
+        return Math.max(current + leftsum, current + rigthsum);
     }
 }
