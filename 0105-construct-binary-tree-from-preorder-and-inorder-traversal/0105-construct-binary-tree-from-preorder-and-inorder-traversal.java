@@ -15,11 +15,13 @@
  */
 class Solution {
 
-    private int p = 0;
-    private int i = 0;
+    int p = 0;
+    int i = 0;
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        TreeNode root = genTree(preorder, inorder, Integer.MIN_VALUE);
+        if (preorder == null)
+            return null;
+        TreeNode root = genTree(preorder, inorder, Integer.MAX_VALUE);
         return root;
     }
 
@@ -33,7 +35,6 @@ class Solution {
         TreeNode node = new TreeNode(preorder[p++]);
         node.left = genTree(preorder, inorder, node.val);
         node.right = genTree(preorder, inorder, stop);
-
         return node;
     }
 }
