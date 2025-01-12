@@ -14,13 +14,10 @@
  * }
  */
 class Solution {
-
     int p = 0;
     int i = 0;
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        if (preorder == null)
-            return null;
         TreeNode root = genTree(preorder, inorder, Integer.MAX_VALUE);
         return root;
     }
