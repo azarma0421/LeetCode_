@@ -22,15 +22,14 @@ class Solution {
         }
 
         while (k != 0) {
-            root = stack.pop();
-            k--;
-            if (k == 0)
-                return root.val;
+            TreeNode node = stack.pop();
+            if (--k == 0)
+                return node.val;
 
-            root = root.right;
-            while (root != null) {
-                stack.push(root);
-                root=root.left;
+            node = node.right;
+            while (node != null) {
+                stack.push(node);
+                node = node.left;
             }
         }
         return -1;
