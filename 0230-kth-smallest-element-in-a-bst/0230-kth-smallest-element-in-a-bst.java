@@ -1,3 +1,4 @@
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -16,22 +17,25 @@
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         Stack<TreeNode> stack = new Stack<>();
+        int count = 0;
+
         while (root != null) {
             stack.push(root);
             root = root.left;
         }
+        root = stack.pop();
 
-        while (k != 0) {
-            TreeNode node = stack.pop();
-            if (--k == 0)
-                return node.val;
-
-            node = node.right;
-            while (node != null) {
-                stack.push(node);
-                node = node.left;
+        while (true) {
+            if (++count == k)
+                return root.val;
+            if (root.right != null) {
+                root = root.right;
+                while (root != null) {
+                    stack.push(root);
+                    root = root.left;
+                }
             }
+            root = stack.pop();
         }
-        return -1;
     }
 }
