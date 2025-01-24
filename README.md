@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/azarma0421/LeetCode_/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
+| [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
 ## Breadth-First Search
 |  |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/azarma0421/LeetCode_/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
+| [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
 ## Binary Tree
 |  |
@@ -346,10 +348,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/azarma0421/LeetCode_/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
+| [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
+| [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 ## Union Find
 |  |
 | ------- |
