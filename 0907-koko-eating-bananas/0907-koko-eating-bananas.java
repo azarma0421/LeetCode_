@@ -2,18 +2,22 @@ class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         int l = 1;
         int r = Arrays.stream(piles).max().getAsInt();
-        int k = (l + r) / 2;
-        while (l <= r) {
-            k = (l + r) / 2;
-            int curTime = 0;
-            for (int p : piles) {
-                curTime += Math.ceil((p + k - 1) / k);
-            }
-            if (curTime > h)
-                l = k + 1;
+        while (l < r) {
+            int mid = (l + r) / 2;
+            if (check(piles, h, mid))
+                l = mid + 1;
             else
-                r = k - 1;
+                r = mid;
         }
         return l;
+    }
+
+    private boolean check(int[] piles, int h, int mid) {
+        int curTime = 0;
+        for (int p : piles) {
+            curTime += p / mid;
+            curTime += p % mid != 0 ? 1 : 0;
+        }
+        return curTime > h;
     }
 }
