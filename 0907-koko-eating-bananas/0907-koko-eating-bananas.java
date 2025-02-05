@@ -7,7 +7,7 @@ class Solution {
             k = (l + r) / 2;
             int curTime = 0;
             for (int p : piles) {
-                curTime += Math.ceil(1.0 * p / k);
+                curTime += Math.ceil((p + k - 1) / k);
             }
             if (curTime > h)
                 l = k + 1;
