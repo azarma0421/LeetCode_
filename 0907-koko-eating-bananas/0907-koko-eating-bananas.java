@@ -9,7 +9,6 @@ class Solution {
             for (int p : piles) {
                 curTime += Math.ceil(1.0 * p / k);
             }
-            System.out.println("curTime " + curTime);
             if (curTime > h)
                 l = k + 1;
             else
