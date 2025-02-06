@@ -6,7 +6,6 @@ class Solution {
 
         while (left < right) {
             int current = (right - left) * Math.min(height[right], height[left]);
-            System.out.println(current);
             max = Math.max(max, current);
             if (height[left] < height[right])
                 left++;
