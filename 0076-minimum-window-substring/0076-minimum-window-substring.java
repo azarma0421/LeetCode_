@@ -1,30 +1,31 @@
 class Solution {
     public String minWindow(String s, String t) {
+        int word = 0;
         int[] map = new int[128];
-        int count = t.length();
-        int minlen = Integer.MAX_VALUE;
-        int start = 0;
-        int end = 0;
-        int startIndex = 0;
+        String ans = s;
+        int minLength = Integer.MAX_VALUE;
 
-        char[] chS = s.toCharArray();
-
-        for (char c : t.toCharArray()) {
-            map[c]++;
+        for (int i = 0; i < t.length(); i++) {
+            if (map[t.charAt(i)]-- == 0)
+                word++;
         }
 
-        while (end < s.length()) {
-            if (map[chS[end++]]-- > 0)
-                count--;
-            while (count == 0) {
-                if (minlen > end - start) {
-                    startIndex = start;
-                    minlen = end - start;
-                }
-                if (map[chS[start++]]++ == 0)
-                    count++;
+        int left = 0;
+        int right = 0;
+
+        while (left < s.length() && right < s.length()) {
+
+            while (word > 0 && right < s.length()) {
+                if (map[s.charAt(right++)]++ == -1)
+                    word--;
+            }
+            while (word == 0) {
+                ans = minLength > right - left ? s.substring(left, right) : ans;
+                minLength = Math.min(minLength, right - left);
+                if (map[s.charAt(left++)]-- == 0)
+                    word++;
             }
         }
-        return minlen == Integer.MAX_VALUE ? new String() : new String(chS, startIndex, minlen);
+        return minLength == Integer.MAX_VALUE ? new String() : ans;
     }
 }
