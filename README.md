@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/azarma0421/LeetCode_/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1023-time-based-key-value-store](https://github.com/azarma0421/LeetCode_/tree/master/1023-time-based-key-value-store) |
 ## Matrix
 |  |
 | ------- |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/azarma0421/LeetCode_/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0647-palindromic-substrings](https://github.com/azarma0421/LeetCode_/tree/master/0647-palindromic-substrings) |
+| [1023-time-based-key-value-store](https://github.com/azarma0421/LeetCode_/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/azarma0421/LeetCode_/tree/master/1250-longest-common-subsequence) |
 ## Backtracking
 |  |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/azarma0421/LeetCode_/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/azarma0421/LeetCode_/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1023-time-based-key-value-store](https://github.com/azarma0421/LeetCode_/tree/master/1023-time-based-key-value-store) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -311,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/azarma0421/LeetCode_/tree/master/0300-longest-increasing-subsequence) |
 | [0792-binary-search](https://github.com/azarma0421/LeetCode_/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/azarma0421/LeetCode_/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/azarma0421/LeetCode_/tree/master/1023-time-based-key-value-store) |
 ## Trie
 |  |
 | ------- |
