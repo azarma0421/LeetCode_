@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/azarma0421/LeetCode_/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/azarma0421/LeetCode_/tree/master/0907-koko-eating-bananas) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/azarma0421/LeetCode_/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
 ## Dynamic Programming
 |  |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/azarma0421/LeetCode_/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/azarma0421/LeetCode_/tree/master/1250-longest-common-subsequence) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/azarma0421/LeetCode_/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Greedy
 |  |
 | ------- |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/azarma0421/LeetCode_/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/azarma0421/LeetCode_/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Linked List
 |  |
 | ------- |
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/azarma0421/LeetCode_/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/azarma0421/LeetCode_/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/azarma0421/LeetCode_/tree/master/1023-time-based-key-value-store) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/azarma0421/LeetCode_/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Trie
 |  |
 | ------- |
