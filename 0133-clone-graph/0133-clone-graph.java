@@ -20,25 +20,25 @@ class Node {
 
 class Solution {
     public Node cloneGraph(Node node) {
-        Node[] visited = new Node[101];
-        Arrays.fill(visited, null);
-
         if (node == null)
             return null;
-        Node copyNode = new Node(node.val);
-        dfs(node, copyNode, visited);
-        return copyNode;
+        Node newNode = new Node(node.val);
+        Node[] visited = new Node[101];
+        visited[newNode.val] = newNode;
+        dfs(visited, node, newNode);
+        return newNode;
+
     }
 
-    private void dfs(Node node, Node copy, Node[] visited) {
-        visited[copy.val] = copy;
+    private void dfs(Node[] visited, Node node, Node copyNode) {
         for (Node n : node.neighbors) {
             if (visited[n.val] == null) {
                 Node newNode = new Node(n.val);
-                copy.neighbors.add(newNode);
-                dfs(n, newNode, visited);
+                copyNode.neighbors.add(newNode);
+                visited[n.val] = newNode;
+                dfs(visited, n, newNode);
             } else {
-                copy.neighbors.add(visited[n.val]);
+                copyNode.neighbors.add(visited[n.val]);
             }
         }
     }
