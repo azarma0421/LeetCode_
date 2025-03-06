@@ -1,33 +1,45 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> course = new ArrayList<>();
-        boolean[] visited = new boolean[numCourses];
+        // [bi, ai]
+        ArrayList[] graph = new ArrayList[numCourses];
+        // [ai, num of bi]
+        int[] corse = new int[numCourses];
+        Queue queue = new LinkedList<>();
+        int finished = 0;
 
         for (int i = 0; i < numCourses; i++) {
-            course.add(new ArrayList<>());
-        }
-        for (int[] p : prerequisites) {
-            course.get(p[0]).add(p[1]);
+            graph[i] = new ArrayList<>();
         }
 
-        for (List<Integer> cur : course) {
-            if (!dfs(visited, cur, course))
-                return false;
+        for (int[] p : prerequisites) {
+            graph[p[1]].add(p[0]);
+            corse[p[0]]++;
         }
-        return true;
+
+        for (int i = 0; i < numCourses; i++) {
+            if (corse[i] == 0) {
+                finished++;
+                queue.add(i);
+            }
+        }
+
+        while (!queue.isEmpty()) {
+            int cur = (int) queue.poll();
+
+            for (int i = 0; i < graph[cur].size(); i++) {
+                int point = (int) graph[cur].get(i);
+                corse[point]--;
+                if (corse[point] == 0) {
+                    finished++;
+                    queue.add(point);
+                }
+            }
+        }
+
+        return finished == numCourses;
     }
 
-    private boolean dfs(boolean[] visited, List<Integer> current, List<List<Integer>> allCourse) {
-        for (Integer c : current) {
-            if (visited[c])
-                return false;
+    private void dfs() {
 
-            visited[c] = true;
-            if (!dfs(visited, allCourse.get(c), allCourse)) {
-                return false;
-            }
-            visited[c] = false;
-        }
-        return true;
     }
 }
