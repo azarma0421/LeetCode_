@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/azarma0421/LeetCode_/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/azarma0421/LeetCode_/tree/master/0907-koko-eating-bananas) |
+| [1036-rotting-oranges](https://github.com/azarma0421/LeetCode_/tree/master/1036-rotting-oranges) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/azarma0421/LeetCode_/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
 ## Dynamic Programming
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/azarma0421/LeetCode_/tree/master/1036-rotting-oranges) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
 ## Simulation
 |  |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
+| [1036-rotting-oranges](https://github.com/azarma0421/LeetCode_/tree/master/1036-rotting-oranges) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
 ## Binary Tree
 |  |
