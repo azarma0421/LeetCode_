@@ -1,44 +1,49 @@
 class Solution {
     public int orangesRotting(int[][] grid) {
-        if (grid.length == 0 || grid == null)
-            return 0;
+        Queue<int[]> queue = new LinkedList<>();
+        int time = 0;
+        int freshOramges = 0;
 
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
-                if (grid[i][j] == 2) {
-                    rotAdj(grid, i, j, 2);
-                }
+                if (grid[i][j] == 2)
+                    queue.add(new int[] { i, j });
+                else if (grid[i][j] == 1)
+                    freshOramges++;
             }
         }
+        System.out.println("freshOramges " + freshOramges);
 
-        int minutes = 2;
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[i].length; j++) {
-                if (grid[i][j] == 1) {
-                    System.out.println("=== ");
-                    System.out.println("i= " + i);
-                    System.out.println("j= " + j);
-                    return -1;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                int[] current = queue.poll();
+                int x = current[0];
+                int y = current[1];
+                if (x > 0 && grid[x - 1][y] == 1) {
+                    queue.add(new int[] { x - 1, y });
+                    grid[x - 1][y] = 2;
+                    freshOramges--;
                 }
-                minutes = Math.max(minutes, grid[i][j]);
+                if (y > 0 && grid[x][y - 1] == 1) {
+                    queue.add(new int[] { x, y - 1 });
+                    grid[x][y - 1] = 2;
+                    freshOramges--;
+                }
+                if (x < grid.length - 1 && grid[x + 1][y] == 1) {
+                    queue.add(new int[] { x + 1, y });
+                    grid[x + 1][y] = 2;
+                    freshOramges--;
+                }
+                if (y < grid[0].length - 1 && grid[x][y + 1] == 1) {
+                    queue.add(new int[] { x, y + 1 });
+                    grid[x][y + 1] = 2;
+                    freshOramges--;
+                }
             }
+            if (!queue.isEmpty())
+                time++;
         }
-        return minutes - 2;
-    }
-
-    private void rotAdj(int[][] grid, int i, int j, int minute) {
-        if (i < 0 || i >= grid.length ||
-                j < 0 || j >= grid[0].length ||
-                grid[i][j] == 0 ||
-                (1 < grid[i][j] && grid[i][j] < minute)) {
-            return;
-        } else {
-
-            grid[i][j] = minute;
-            rotAdj(grid, i + 1, j, minute + 1);
-            rotAdj(grid, i - 1, j, minute + 1);
-            rotAdj(grid, i, j + 1, minute + 1);
-            rotAdj(grid, i, j - 1, minute + 1);
-        }
+        return freshOramges == 0 ? time : -1;
     }
 }
