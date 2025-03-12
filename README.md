@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0542-01-matrix) |
+| [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/azarma0421/LeetCode_/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/azarma0421/LeetCode_/tree/master/0907-koko-eating-bananas) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/azarma0421/LeetCode_/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/azarma0421/LeetCode_/tree/master/0435-non-overlapping-intervals) |
+| [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/azarma0421/LeetCode_/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Linked List
 |  |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/azarma0421/LeetCode_/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/azarma0421/LeetCode_/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
 | [1023-time-based-key-value-store](https://github.com/azarma0421/LeetCode_/tree/master/1023-time-based-key-value-store) |
 ## Matrix
 |  |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/azarma0421/LeetCode_/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/azarma0421/LeetCode_/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0647-palindromic-substrings](https://github.com/azarma0421/LeetCode_/tree/master/0647-palindromic-substrings) |
+| [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
 | [1023-time-based-key-value-store](https://github.com/azarma0421/LeetCode_/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/azarma0421/LeetCode_/tree/master/1250-longest-common-subsequence) |
 ## Backtracking
@@ -260,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/azarma0421/LeetCode_/tree/master/0572-subtree-of-another-tree) |
+| [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
@@ -277,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/azarma0421/LeetCode_/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0542-01-matrix) |
+| [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/azarma0421/LeetCode_/tree/master/0733-flood-fill) |
 | [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/azarma0421/LeetCode_/tree/master/1036-rotting-oranges) |
@@ -388,5 +394,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/azarma0421/LeetCode_/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/azarma0421/LeetCode_/tree/master/0200-number-of-islands) |
+| [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
 | [1396-count-servers-that-communicate](https://github.com/azarma0421/LeetCode_/tree/master/1396-count-servers-that-communicate) |
 <!---LeetCode Topics End-->
