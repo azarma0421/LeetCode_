@@ -1,22 +1,23 @@
 class Solution {
     class UnionFind {
-        int[] parent;
+        int[] parant;
         int[] weight;
 
         public UnionFind(int size) {
-            parent = new int[size];
+            parant = new int[size];
             weight = new int[size];
 
             for (int i = 0; i < size; i++) {
-                parent[i] = i;
+                parant[i] = i;
                 weight[i] = 1;
             }
         }
 
         public int find(int a) {
-            if (parent[a] == a)
-                return a;
-            return find(parent[a]);
+            if (parant[a] != a) {
+                return find(parant[a]);
+            }
+            return a;
         }
 
         public void union(int a, int b) {
@@ -27,10 +28,10 @@ class Solution {
                 return;
 
             if (weight[rootA] > weight[rootB]) {
-                parent[rootB] = rootA;
+                parant[rootB] = rootA;
                 weight[rootA]++;
             } else {
-                parent[rootA] = rootB;
+                parant[rootA] = rootB;
                 weight[rootB]++;
             }
         }
@@ -40,37 +41,37 @@ class Solution {
         int size = accounts.size();
         UnionFind uf = new UnionFind(size);
 
-        Map<String, Integer> emailToId = new HashMap<>();
+        Map<String, Integer> mailToId = new HashMap<>();
         for (int i = 0; i < size; i++) {
             List<String> details = accounts.get(i);
             for (int j = 1; j < details.size(); j++) {
                 String mail = details.get(j);
-                if (emailToId.containsKey(mail)) {
-                    uf.union(i, emailToId.get(mail));
+                if (mailToId.containsKey(mail)) {
+                    uf.union(mailToId.get(mail), i);
                 } else {
-                    emailToId.put(mail, i);
+                    mailToId.put(mail, i);
                 }
             }
         }
 
-        Map<Integer, List<String>> idToEmails = new HashMap<>();
-        for (String key : emailToId.keySet()) {
-            int root = uf.find(emailToId.get(key));
-
-            if (!idToEmails.containsKey(root))
-                idToEmails.put(root, new ArrayList<>());
-
-            idToEmails.get(root).add(key);
+        Map<Integer, List<String>> idToMail = new HashMap<>();
+        for (String key : mailToId.keySet()) {
+            int root = uf.find(mailToId.get(key));
+            if (!idToMail.containsKey(root)) {
+                idToMail.put(root, new ArrayList<>());
+            }
+            idToMail.get(root).add(key);
         }
 
-        List<List<String>> mergeDetails = new ArrayList<>();
-        for (Integer id : idToEmails.keySet()) {
-            List<String> emails = idToEmails.get(id);
+        List<List<String>> mergeList = new ArrayList<>();
+
+        for (Integer id : idToMail.keySet()) {
+            List<String> emails = idToMail.get(id);
             Collections.sort(emails);
             emails.add(0, accounts.get(id).get(0));
-            mergeDetails.add(emails);
+            mergeList.add(emails);
         }
 
-        return mergeDetails;
+        return mergeList;
     }
 }
