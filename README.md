@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/azarma0421/LeetCode_/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/azarma0421/LeetCode_/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/azarma0421/LeetCode_/tree/master/0310-minimum-height-trees) |
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/azarma0421/LeetCode_/tree/master/0572-subtree-of-another-tree) |
 | [0721-accounts-merge](https://github.com/azarma0421/LeetCode_/tree/master/0721-accounts-merge) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/azarma0421/LeetCode_/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/azarma0421/LeetCode_/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/azarma0421/LeetCode_/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/azarma0421/LeetCode_/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/azarma0421/LeetCode_/tree/master/0542-01-matrix) |
@@ -384,11 +386,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/azarma0421/LeetCode_/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
+| [0310-minimum-height-trees](https://github.com/azarma0421/LeetCode_/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/azarma0421/LeetCode_/tree/master/0207-course-schedule) |
+| [0310-minimum-height-trees](https://github.com/azarma0421/LeetCode_/tree/master/0310-minimum-height-trees) |
 | [0820-find-eventual-safe-states](https://github.com/azarma0421/LeetCode_/tree/master/0820-find-eventual-safe-states) |
 ## Union Find
 |  |
