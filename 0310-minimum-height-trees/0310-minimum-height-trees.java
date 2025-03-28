@@ -1,17 +1,20 @@
+;
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1) {
             return Collections.singletonList(0);
         }
-
-        List<Set<Integer>> adj = new ArrayList<>();
+        int[] degree = new int[n];
+        List<List<Integer>> adj = new ArrayList<>();
 
         for (int i = 0; i < n; i++)
-            adj.add(new HashSet<>());
+            adj.add(new ArrayList<>());
 
         for (int[] edge : edges) {
             adj.get(edge[0]).add(edge[1]);
             adj.get(edge[1]).add(edge[0]);
+            degree[edge[0]]++;
+            degree[edge[1]]++;
         }
 
         List<Integer> leaves = new ArrayList<>();
@@ -24,16 +27,10 @@ class Solution {
             n -= leaves.size();
             List<Integer> newLeaves = new ArrayList<>();
             for (int i : leaves) {
-                int j = -1;
-                // foreach has better performance than iterator 
-                for (int num : adj.get(i)) {
-                    j = num;
-                    break;
+                for (int j : adj.get(i)) {
+                    if (--degree[j] == 1)
+                        newLeaves.add(j);
                 }
-
-                adj.get(j).remove(i);
-                if (adj.get(j).size() == 1)
-                    newLeaves.add(j);
             }
             leaves = newLeaves;
         }
