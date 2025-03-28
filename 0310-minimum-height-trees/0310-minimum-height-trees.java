@@ -1,4 +1,3 @@
-;
 class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1) {
@@ -25,7 +24,13 @@ class Solution {
             n -= leaves.size();
             List<Integer> newLeaves = new ArrayList<>();
             for (int i : leaves) {
-                int j = adj.get(i).iterator().next();
+                int j = -1;
+                // foreach has better performance than iterator 
+                for (int num : adj.get(i)) {
+                    j = num;
+                    break;
+                }
+
                 adj.get(j).remove(i);
                 if (adj.get(j).size() == 1)
                     newLeaves.add(j);
