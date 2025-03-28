@@ -1,36 +1,40 @@
 class Solution {
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
-        int rows = heights.length;
-        int cols = heights[0].length;
-        boolean[][] pac = new boolean[rows][cols];
-        boolean[][] atl = new boolean[rows][cols];
+        int m = heights.length;
+        int n = heights[0].length;
+        boolean[][] pacific = new boolean[m][n];
+        boolean[][] atlantic = new boolean[m][n];
 
-        for (int col = 0; col < cols; col++) {
-            dfs(0, col, rows, cols, pac, heights[0][col], heights);
-            dfs(rows - 1, col, rows, cols, atl, heights[rows - 1][col], heights);
-        }
-        for (int row = 0; row < rows; row++) {
-            dfs(row, 0, rows, cols, pac, heights[row][0], heights);
-            dfs(row, cols - 1, rows, cols, atl, heights[row][cols - 1], heights);
+        for (int i = 0; i < m; i++) {
+            dfs(heights, pacific, i, 0, Integer.MIN_VALUE);
+            dfs(heights, atlantic, i, n - 1, Integer.MIN_VALUE);
         }
 
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                if (pac[i][j] && atl[i][j])
-                    result.add(Arrays.asList(i, j));
+        for (int j = 0; j < n; j++) {
+            dfs(heights, pacific, 0, j, Integer.MIN_VALUE);
+            dfs(heights, atlantic, m - 1, j, Integer.MIN_VALUE);
+        }
+
+        List<List<Integer>> ans = new ArrayList<>();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (pacific[i][j] && atlantic[i][j])
+                    ans.add(new ArrayList<>(Arrays.asList(i, j)));
             }
         }
-        return result;
+        return ans;
     }
 
-    private void dfs(int row, int col, int rows, int cols, boolean[][] visited, int preheight, int[][] heights) {
-        if (row < 0 || col < 0 || row >= rows || col >= cols || visited[row][col] || heights[row][col] < preheight)
+    private void dfs(int[][] matrix, boolean[][] visited, int m, int n, int height) {
+        if (m < 0 || n < 0 ||
+                m >= matrix.length || n >= matrix[0].length ||
+                visited[m][n] || matrix[m][n] < height)
             return;
-        visited[row][col] = true;
-        dfs(row + 1, col, rows, cols, visited, heights[row][col], heights);
-        dfs(row - 1, col, rows, cols, visited, heights[row][col], heights);
-        dfs(row, col + 1, rows, cols, visited, heights[row][col], heights);
-        dfs(row, col - 1, rows, cols, visited, heights[row][col], heights);
+        visited[m][n] = true;
+        dfs(matrix, visited, m + 1, n, matrix[m][n]);
+        dfs(matrix, visited, m - 1, n, matrix[m][n]);
+        dfs(matrix, visited, m, n + 1, matrix[m][n]);
+        dfs(matrix, visited, m, n - 1, matrix[m][n]);
+
     }
 }
