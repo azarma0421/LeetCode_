@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/azarma0421/LeetCode_/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/azarma0421/LeetCode_/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/azarma0421/LeetCode_/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/azarma0421/LeetCode_/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/azarma0421/LeetCode_/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/azarma0421/LeetCode_/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/azarma0421/LeetCode_/tree/master/0039-combination-sum) |
+| [0078-subsets](https://github.com/azarma0421/LeetCode_/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/azarma0421/LeetCode_/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/azarma0421/LeetCode_/tree/master/0212-word-search-ii) |
 ## Sliding Window
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/azarma0421/LeetCode_/tree/master/0078-subsets) |
 | [0190-reverse-bits](https://github.com/azarma0421/LeetCode_/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/azarma0421/LeetCode_/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/azarma0421/LeetCode_/tree/master/0268-missing-number) |
